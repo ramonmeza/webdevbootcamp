@@ -43,12 +43,10 @@ function onFrame(event) {
             RemoveCircle(index);
         }
     });
-
- //   console.clear();
-    console.log(circles.length);
 }
 
 // Delete dead circles
 function RemoveCircle(index) {
+    circles[i].remove();
     circles.splice(index, 1);
 }
