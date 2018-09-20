@@ -1,0 +1,10 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+.square {
+    margin: 5%;
+    padding: 50%;
+    background: red;
+}
