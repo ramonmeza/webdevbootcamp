@@ -47,6 +47,6 @@ function onFrame(event) {
 
 // Delete dead circles
 function RemoveCircle(index) {
-    circles[i].remove();
+    circles[index].remove();
     circles.splice(index, 1);
 }
